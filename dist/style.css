@@ -8,3 +8,7 @@
 
 /* Layout after removing decorative labels. */
 .hero-bottom{justify-content:flex-end}.project-card{justify-content:flex-end}.project-card .card-bottom{margin-top:30px}
+/* Reserve the left side of the hero for the headline; keep the mobile crop. */
+@media(min-width:701px){
+ .hero-image{transform:translateX(16%);-webkit-mask-image:linear-gradient(90deg,transparent,#000 12%);mask-image:linear-gradient(90deg,transparent,#000 12%)}
+}
