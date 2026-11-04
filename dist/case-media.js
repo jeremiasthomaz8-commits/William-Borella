@@ -1,0 +1,265 @@
+const caseMedia = {
+  "gross": [
+    {
+      "original": "PROJETOS PARA O PORTIFÓLIO/GROSS/FOTOS/ALAN 01.jpg",
+      "name": "ALAN 01",
+      "type": "image",
+      "src": "./assets/cases/gross/alan-01.webp",
+      "width": 1200,
+      "height": 1800,
+      "bytes": 52640,
+      "pt": "Alan — retrato",
+      "en": "Alan — portrait"
+    },
+    {
+      "original": "PROJETOS PARA O PORTIFÓLIO/GROSS/FOTOS/GROSS_B.jpg",
+      "name": "GROSS_B",
+      "type": "image",
+      "src": "./assets/cases/gross/gross-b.webp",
+      "width": 1023,
+      "height": 1537,
+      "bytes": 166684,
+      "pt": "Hambúrguer Gross",
+      "en": "Gross burger"
+    },
+    {
+      "original": "PROJETOS PARA O PORTIFÓLIO/GROSS/FOTOS/BACK IN BLACK (2).jpg",
+      "name": "BACK IN BLACK (2)",
+      "type": "image",
+      "src": "./assets/cases/gross/back-in-black-2.webp",
+      "width": 1200,
+      "height": 1800,
+      "bytes": 227766,
+      "pt": "Back in Black",
+      "en": "Back in Black"
+    },
+    {
+      "original": "PROJETOS PARA O PORTIFÓLIO/GROSS/FOTOS/ALAN 02.jpg",
+      "name": "ALAN 02",
+      "type": "image",
+      "src": "./assets/cases/gross/alan-02.webp",
+      "width": 1200,
+      "height": 1800,
+      "bytes": 196746,
+      "pt": "Alan — na cozinha",
+      "en": "Alan — in the kitchen"
+    },
+    {
+      "original": "PROJETOS PARA O PORTIFÓLIO/GROSS/VÍDEOS/GROSS - DIA MUNDIAL DA PIZZA(1).mp4",
+      "name": "GROSS - DIA MUNDIAL DA PIZZA(1)",
+      "type": "video",
+      "src": "./assets/cases/gross/gross-dia-mundial-da-pizza-1.mp4",
+      "poster": "./assets/cases/gross/gross-dia-mundial-da-pizza-1-poster.webp",
+      "width": 640,
+      "height": 1138,
+      "bytes": 7539307,
+      "pt": "Dia Mundial da Pizza",
+      "en": "World Pizza Day"
+    },
+    {
+      "original": "PROJETOS PARA O PORTIFÓLIO/GROSS/VÍDEOS/GROSS - MUSTACHE(1).mp4",
+      "name": "GROSS - MUSTACHE(1)",
+      "type": "video",
+      "src": "./assets/cases/gross/gross-mustache-1.mp4",
+      "poster": "./assets/cases/gross/gross-mustache-1-poster.webp",
+      "width": 640,
+      "height": 1138,
+      "bytes": 9967791,
+      "pt": "Mustache",
+      "en": "Mustache"
+    },
+    {
+      "original": "PROJETOS PARA O PORTIFÓLIO/GROSS/VÍDEOS/BARK - GROSS.mp4",
+      "name": "BARK - GROSS",
+      "type": "video",
+      "src": "./assets/cases/gross/bark-gross.mp4",
+      "poster": "./assets/cases/gross/bark-gross-poster.webp",
+      "width": 640,
+      "height": 1138,
+      "bytes": 5057048,
+      "pt": "Bark",
+      "en": "Bark"
+    },
+    {
+      "original": "PROJETOS PARA O PORTIFÓLIO/GROSS/VÍDEOS/GROSS - SPARTAN.mp4",
+      "name": "GROSS - SPARTAN",
+      "type": "video",
+      "src": "./assets/cases/gross/gross-spartan.mp4",
+      "poster": "./assets/cases/gross/gross-spartan-poster.webp",
+      "width": 640,
+      "height": 1138,
+      "bytes": 6769069,
+      "pt": "Spartan",
+      "en": "Spartan"
+    },
+    {
+      "original": "PROJETOS PARA O PORTIFÓLIO/GROSS/FOTOS/MUSTACHE.png",
+      "name": "MUSTACHE",
+      "type": "image",
+      "src": "./assets/cases/gross/mustache.webp",
+      "width": 1200,
+      "height": 1800,
+      "bytes": 107528,
+      "pt": "Mustache — fotografia",
+      "en": "Mustache — photography"
+    },
+    {
+      "original": "PROJETOS PARA O PORTIFÓLIO/GROSS/VÍDEOS/GROSS - REAL OFICIAL.mp4",
+      "name": "GROSS - REAL OFICIAL",
+      "type": "video",
+      "src": "./assets/cases/gross/gross-real-oficial.mp4",
+      "poster": "./assets/cases/gross/gross-real-oficial-poster.webp",
+      "width": 640,
+      "height": 1138,
+      "bytes": 13913966,
+      "pt": "Real Oficial",
+      "en": "Real Oficial"
+    }
+  ],
+  "bons-ares": [
+    {
+      "original": "PROJETOS PARA O PORTIFÓLIO/BONS ARES/watermarked_img_3025338988844761463.jpg",
+      "name": "watermarked_img_3025338988844761463",
+      "type": "image",
+      "src": "./assets/cases/bons-ares/watermarked-img-3025338988844761463.webp",
+      "width": 765,
+      "height": 1024,
+      "bytes": 173228,
+      "pt": "Aplicação no uniforme",
+      "en": "Uniform application"
+    },
+    {
+      "original": "PROJETOS PARA O PORTIFÓLIO/BONS ARES/MOCKUP01.jpeg",
+      "name": "MOCKUP01",
+      "type": "image",
+      "src": "./assets/cases/bons-ares/mockup01.webp",
+      "width": 1024,
+      "height": 682,
+      "bytes": 91776,
+      "pt": "Aplicação em material impresso",
+      "en": "Print application"
+    },
+    {
+      "original": "PROJETOS PARA O PORTIFÓLIO/BONS ARES/CAPA_IDV.png",
+      "name": "CAPA_IDV",
+      "type": "image",
+      "src": "./assets/cases/bons-ares/capa-idv.webp",
+      "width": 1080,
+      "height": 1440,
+      "bytes": 249420,
+      "pt": "Identidade visual",
+      "en": "Visual identity"
+    }
+  ],
+  "quero-ferias": [
+    {
+      "original": "PROJETOS PARA O PORTIFÓLIO/QUERO FÉRIAS/2.jpg",
+      "name": "2",
+      "type": "image",
+      "src": "./assets/cases/quero-ferias/2.webp",
+      "width": 1800,
+      "height": 1344,
+      "bytes": 323500,
+      "pt": "Aplicação na mala",
+      "en": "Suitcase application"
+    },
+    {
+      "original": "PROJETOS PARA O PORTIFÓLIO/QUERO FÉRIAS/3.jpg",
+      "name": "3",
+      "type": "image",
+      "src": "./assets/cases/quero-ferias/3.webp",
+      "width": 1344,
+      "height": 1800,
+      "bytes": 793886,
+      "pt": "Aplicação na ecobag",
+      "en": "Tote bag application"
+    },
+    {
+      "original": "PROJETOS PARA O PORTIFÓLIO/QUERO FÉRIAS/CAPA.png",
+      "name": "CAPA",
+      "type": "image",
+      "src": "./assets/cases/quero-ferias/capa.webp",
+      "width": 1080,
+      "height": 1440,
+      "bytes": 329936,
+      "pt": "Identidade visual",
+      "en": "Visual identity"
+    }
+  ],
+  "clicar-e-viajar": [
+    {
+      "original": "PROJETOS PARA O PORTIFÓLIO/CLICAR E VIAJAR/2.jpeg",
+      "name": "2",
+      "type": "image",
+      "src": "./assets/cases/clicar-e-viajar/2.webp",
+      "width": 1800,
+      "height": 1800,
+      "bytes": 526572,
+      "pt": "Aplicação em mídia externa",
+      "en": "Outdoor advertising application"
+    },
+    {
+      "original": "PROJETOS PARA O PORTIFÓLIO/CLICAR E VIAJAR/CAPA.jpg",
+      "name": "CAPA",
+      "type": "image",
+      "src": "./assets/cases/clicar-e-viajar/capa.webp",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 68710,
+      "pt": "Aplicação digital",
+      "en": "Digital application"
+    }
+  ],
+  "affinita": [
+    {
+      "original": "PROJETOS PARA O PORTIFÓLIO/AFFINITÀ/AFFINITA - TOMOGRAFIA.mp4",
+      "name": "AFFINITA - TOMOGRAFIA",
+      "type": "video",
+      "src": "./assets/cases/affinita/affinita-tomografia.mp4",
+      "poster": "./assets/cases/affinita/affinita-tomografia-poster.webp",
+      "width": 640,
+      "height": 1138,
+      "bytes": 1131619,
+      "pt": "Tomografia",
+      "en": "CT scan"
+    },
+    {
+      "original": "PROJETOS PARA O PORTIFÓLIO/AFFINITÀ/AFFINITÀ - DISNEY_2.mp4",
+      "name": "AFFINITÀ - DISNEY_2",
+      "type": "video",
+      "src": "./assets/cases/affinita/affinita-disney-2.mp4",
+      "poster": "./assets/cases/affinita/affinita-disney-2-poster.webp",
+      "width": 640,
+      "height": 1138,
+      "bytes": 14789482,
+      "pt": "Disney",
+      "en": "Disney"
+    }
+  ],
+  "o-rocco": [
+    {
+      "original": "PROJETOS PARA O PORTIFÓLIO/O ROCCO/VÍDEOS/HISTÓRIA DO ROCCO.mp4",
+      "name": "HISTÓRIA DO ROCCO",
+      "type": "video",
+      "src": "./assets/cases/o-rocco/historia-do-rocco.mp4",
+      "poster": "./assets/cases/o-rocco/historia-do-rocco-poster.webp",
+      "width": 640,
+      "height": 1138,
+      "bytes": 11286323,
+      "pt": "História do Rocco",
+      "en": "The story of Rocco"
+    },
+    {
+      "original": "PROJETOS PARA O PORTIFÓLIO/O ROCCO/VÍDEOS/ROCCO - ESTÉTICA DA CASA.mp4",
+      "name": "ROCCO - ESTÉTICA DA CASA",
+      "type": "video",
+      "src": "./assets/cases/o-rocco/rocco-estetica-da-casa.mp4",
+      "poster": "./assets/cases/o-rocco/rocco-estetica-da-casa-poster.webp",
+      "width": 640,
+      "height": 1138,
+      "bytes": 16639583,
+      "pt": "Estética da casa",
+      "en": "The restaurant atmosphere"
+    }
+  ]
+};
