@@ -46,3 +46,21 @@
 @media(forced-colors:active){
  :is(.button,.arrow,.filters button,.languages button,.menu-toggle,.close,.card-arrow,:where(.scroll-link)>span:last-child),.header.fixed{border:1px solid ButtonText;box-shadow:none}
 }
+/* Keep one positioning context so shrinking never jumps from absolute to fixed. */
+.header{
+ --header-ease:cubic-bezier(.22,1,.36,1);
+ position:fixed;top:0;left:0;right:0;border:1px solid transparent;border-radius:0;isolation:isolate;
+ transition:top .55s var(--header-ease),left .55s var(--header-ease),right .55s var(--header-ease),height .55s var(--header-ease),padding .55s var(--header-ease),border-radius .55s var(--header-ease),border-color .55s var(--header-ease),box-shadow .55s var(--header-ease);
+}
+.header,.header.fixed{background:transparent;-webkit-backdrop-filter:none;backdrop-filter:none}
+.header::before{
+ content:'';position:absolute;inset:0;z-index:-1;pointer-events:none;border-radius:inherit;
+ background:linear-gradient(120deg,#ffffff14,transparent 45%,#ffffff07),rgba(15,13,11,.72);
+ -webkit-backdrop-filter:blur(24px) saturate(160%);backdrop-filter:blur(24px) saturate(160%);
+ opacity:0;transition:opacity .55s var(--header-ease);
+}
+.header.fixed::before{opacity:1}
+.header .brand img{transition:width .55s var(--header-ease)}
+@supports not ((backdrop-filter:blur(1px)) or (-webkit-backdrop-filter:blur(1px))){.header::before{background:#171411}}
+@media(prefers-reduced-transparency:reduce),(prefers-contrast:more){.header::before{background:#211c18;backdrop-filter:none;-webkit-backdrop-filter:none}}
+@media(prefers-reduced-motion:reduce){.header,.header::before,.header .brand img{transition:none}}
