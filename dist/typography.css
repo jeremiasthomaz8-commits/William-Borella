@@ -97,3 +97,21 @@ input,select{font-size:14px;line-height:1.5}
  .hero-content{position:relative;top:auto;left:auto;width:100%}
  .hero-bottom{bottom:26px}
 }
+/* Five portraits fill every cell, with one large portrait anchoring the mosaic. */
+.photo-gallery{grid-template-columns:repeat(4,minmax(0,1fr));grid-template-rows:repeat(2,clamp(180px,22vw,300px));grid-template-areas:'lead lead orange studio' 'lead lead warm outdoor';gap:14px;align-items:stretch}
+.photo-gallery .photo-card:nth-child(n){grid-column:auto;grid-row:auto;aspect-ratio:auto;width:100%;height:100%;max-height:none;min-width:0;min-height:0;overflow:hidden;border:0;border-radius:12px}
+.photo-gallery .photo-card:nth-child(1){grid-area:lead}
+.photo-gallery .photo-card:nth-child(2){grid-area:orange}
+.photo-gallery .photo-card:nth-child(3){grid-area:studio}
+.photo-gallery .photo-card:nth-child(4){grid-area:warm}
+.photo-gallery .photo-card:nth-child(5){grid-area:outdoor}
+.photo-gallery .photo-card img{width:100%;height:100%;object-fit:cover;object-position:54% center}
+.photo-gallery .photo-card:nth-child(1) img{object-position:64% center}
+.photo-gallery .photo-card:nth-child(5) img{object-position:40% center}
+.photo-gallery .photo-card span{max-width:calc(100% - 32px);padding:5px 9px;border-radius:5px;background:#0006;font-size:10px;line-height:1.5;left:14px;bottom:14px}
+.photo-gallery .photo-card:focus-visible{outline-offset:-4px}
+@media(max-width:700px){
+ .photo-gallery{grid-template-columns:repeat(2,minmax(0,1fr));grid-template-rows:repeat(3,clamp(160px,46vw,270px));grid-template-areas:'lead lead' 'orange studio' 'warm outdoor';gap:10px}
+ .photo-gallery .photo-card:nth-child(n){border-radius:10px}
+ .photo-gallery .photo-card span{font-size:9px;left:8px;bottom:8px;max-width:calc(100% - 16px);padding:4px 6px}
+}
