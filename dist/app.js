@@ -17,6 +17,8 @@ projects.push(
 );
 const coverNames={'gross':'back-in-black-2.webp','rocco':'rocco-estetica-da-casa-poster.webp','affinita':'affinita-tomografia-poster.webp','bons-ares':'mockup01.webp','quero-ferias':'2.webp','clicar-e-viajar':'capa.webp'};
 projects.forEach(p=>{p.media=caseMedia[p.id==='rocco'?'o-rocco':p.id]||[];p.cover=p.media.find(m=>(m.poster||m.src).endsWith(coverNames[p.id]||'__none'))?.poster||p.media.find(m=>m.src.endsWith(coverNames[p.id]||'__none'))?.src;});
+projects.find(p=>p.id==='gross').cover='./assets/capa-gross.png';
+projects.find(p=>p.id==='rocco').cover='./assets/capa-rocco.png';
 let lightboxItems=null;
 const photos = [
  {file:1,pt:'Retrato em preto e branco',en:'Black-and-white portrait',altPt:'William de perfil em preto e branco, com uma paisagem aberta ao fundo',altEn:'William in profile in black and white, with an open landscape behind him'},

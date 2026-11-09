@@ -86,3 +86,4 @@
 .filters{scrollbar-width:none}
 .filters::-webkit-scrollbar{display:none}
 @media(max-width:700px){.feature-art{-webkit-mask-image:linear-gradient(#000 55%,transparent);mask-image:linear-gradient(#000 55%,transparent)}}
+.stream-poster.gross .case-thumbnail,.stream-poster.rocco .case-thumbnail{object-position:78% center}.feature-picker img{object-position:78% center}.project-cover.gross .case-thumbnail,.project-cover.rocco .case-thumbnail{object-position:75% center}
