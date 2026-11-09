@@ -115,3 +115,4 @@ input,select{font-size:14px;line-height:1.5}
  .photo-gallery .photo-card:nth-child(n){border-radius:10px}
  .photo-gallery .photo-card span{font-size:9px;left:8px;bottom:8px;max-width:calc(100% - 16px);padding:4px 6px}
 }
+.hero-buttons{margin-top:30px}.feature-copy .button{margin-top:20px}.project-details:empty{display:none}
