@@ -20,7 +20,9 @@ const coverNames={'gross':'back-in-black-2.webp','rocco':'rocco-estetica-da-casa
 projects.forEach(p=>{p.media=caseMedia[p.id==='rocco'?'o-rocco':p.id]||[];p.cover=p.media.find(m=>(m.poster||m.src).endsWith(coverNames[p.id]||'__none'))?.poster||p.media.find(m=>m.src.endsWith(coverNames[p.id]||'__none'))?.src;});
 projects.find(p=>p.id==='gross').cover='./assets/capa-gross.png';
 projects.find(p=>p.id==='rocco').cover='./assets/capa-rocco.png';
-projects.find(p=>p.id==='amadeus').cover='./assets/cases/amadeus/identidade-aplicacao.webp';
+projects.find(p=>p.id==='amadeus').cover='./assets/capa-amadeus.png';
+projects.find(p=>p.id==='bons-ares').cover='./assets/capa-bons-ares.png';
+projects.find(p=>p.id==='affinita').cover='./assets/capa-affinita.png';
 projects.find(p=>p.id==='gaspar').cover='./assets/cases/gaspar/editada-24.webp';
 let lightboxItems=null;
 const photos = [
